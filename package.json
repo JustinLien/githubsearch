@@ -1,0 +1,25 @@
+{
+  "name": "githubAPI",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chalk": "^2.3.2",
+    "compression": "^1.7.2",
+    "dotenv": "^5.0.1",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.3",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.15.6",
+    "express-status-monitor": "^1.0.1",
+    "express-validator": "^5.1.2",
+    "lusca": "^1.6.0",
+    "pug": "^2.0.3",
+    "request": "^2.85.0",
+    "validator": "^9.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}

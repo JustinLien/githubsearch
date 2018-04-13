@@ -1,0 +1,30 @@
+extends layouts/index
+
+block content
+  <div class="container">
+    <div class="row">
+      <div class="header">
+        <h1>Github Search</h1>
+      </div>
+      <form class="form-horizontal">
+        <div class="form-group">
+          <label class="col-sm-3 control-label">Search for a Repo</label>
+          <div class="col-sm-9">
+            <input type="text-center" class="form-control" id="user" placeholder="search github repo">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-3 col-sm-9">
+            <button type="button" id="search" class="btn btn-default">Search</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="container-fluid" id="loading">
+    <div>
+      <label>Filter</label>
+      <input type="text" id="filter">
+    </div>
+    <div class="media" id="result"></div>
+  </div>
